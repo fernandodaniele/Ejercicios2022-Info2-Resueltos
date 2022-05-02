@@ -2,8 +2,8 @@
 #include <Arduino.h>
 
 //============ EXAMPLE SELECTOR =======================
-#define EXAMPLEA 1
-#define EXAMPLEB 0
+#define EXAMPLEA 0
+#define EXAMPLEB 1
 
 //================= DEFINES =======================
 #define SENSOR  0
@@ -20,9 +20,9 @@ void setup()
 void loop()
 {
   digitalWrite(LED,1);
-  delay(1); //probar con 120  10  1 12 23
+  delay(120); //probar con 120  10  1 12 23
   digitalWrite(LED,0);
-  delay(23); //probar con 120  230  23 12 1 
+  delay(120); //probar con 120  230  23 12 1 
 }
 
 #endif
